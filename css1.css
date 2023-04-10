@@ -1,0 +1,229 @@
+#content-wrapper {
+    background-color: pink;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.column {
+    width: 25%;
+    float: left;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.san-pham {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.san-pham .ten {
+    font-size: 20px;
+    font-family: Arial;
+    color: blue;
+}
+
+.san-pham img {
+    max-width: 95%;
+}
+
+.san-pham .gia {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.san-pham .sale {
+    color: #707070;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.big {
+    font-size: large;
+    background-color: rgb(253, 253, 253);
+    font: serif;
+}
+
+.img-center {
+    display: block;
+    margin-left: 40%;
+    margin-right: 60%;
+    width: 500px;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+body {
+    margin: 0px;
+}
+
+.row {
+    width: 100%;
+    min-height: 50px;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+nav {
+    width: 80%;
+    height: 90px
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(10, 9, 10);
+    overflow: hidden;
+    align-content: bottom;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+}
+
+.nav a {
+    display: flex;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ec3434;
+    background: #fff;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+article {
+    width: 100%;
+    height: 875px;
+    background-image: url(hinhne/nikee.jpg);
+    float: left;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+footer {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    padding: 40px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    max-width: 500px;
+    margin: auto;
+    height: 100%;
+    line-height: 40px;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.bannerr {
+    background-image: url(hinhne/banner.png);
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px grey;
+    width: 100%;
+}
+
+.vmenu a {
+    background: url(hinhne/nikee.jpg) no-repeat 0px center;
+    color: black;
+    display: block;
+    border-bottom: 1px dotted white;
+    font-family: arial;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 30px 8px 60px;
+    background-size: 100%;
+}
+
+.vmenu a:hover {
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border-bottom: 1px dotted white;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+
+/*asdkjasldkjakldjaskdjaslkdjsakldjaslk*/
+
+.form-group {
+    margin: 10px 0px;
+}
+
+.form-control {
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.form-control:focus {
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+
+.form-button {
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(245, 77, 77);
+    color: white;
+    box-shadow: inset 0 0 20px rgb(245, 77, 77);
+}
+
+.form-button:hover {
+    color: rgb(247, 245, 245);
+    box-shadow: inset 0 0 20px rgb(255, 251, 251);
+}
